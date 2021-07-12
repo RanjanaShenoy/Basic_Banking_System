@@ -1,0 +1,52 @@
+.index_page
+{
+	color:#002e63;
+	font-size:1.5em;
+	
+}
+
+.transfer
+{
+	background-color:#ffff99;
+	color: #4997d0;
+}
+
+.history
+{
+	background-color:#ffff99;
+	color: #4997d0;
+}
+.users
+{
+	background-color:#ffff99;
+	color: #4997d0;	
+}
+
+#users_table
+{  
+	margin:120px 20px 10px 50px;
+	width:50%;
+	height:50%;
+	border-width:1px;
+	background-color:#faebd7;
+}
+
+#history_table
+{
+	width:50%;
+	margin-top:150px;
+	background-color:#bf94e4;
+}
+
+#entered_data
+{
+	background-color:#ffff99;
+	color: #4997d0;
+}
+
+#form1
+{
+	background-color:#ffc1cc;
+	padding-top:50px;
+	width:50%;
+}

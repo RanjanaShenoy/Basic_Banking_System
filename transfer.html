@@ -1,0 +1,74 @@
+<html>
+<head>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" >
+	<link type="text/css" rel="stylesheet" href="style.css" /></link>
+</head>
+	
+<body class="transfer">
+	<div class="navbar navbar-fixed-top" style="font:10px;">.
+		<div class="container">
+		<a href="#" class="navbar-brand" style="font-size:30px;"> &nbsp;&nbsp;&nbsp;&nbsp;The Sparks Bank</a> 				
+		<div class="collapse navbar-collapse" id="myNavbar">
+		<ul class="nav navbar-nav navbar-right">
+		<li><a href="index.html"><span class="glyphicon glyphicon-home "></span> HOME</a></li>
+		<li><a href="users.php"><span class="glyphicon glyphicon-user"></span>Customers</a></li>
+		<li><a href="history.php"><span class="glyphicon glyphicon-time"></span>Transfer History</a></li>
+		</ul>
+		</div>
+	</div>
+	</div>
+	<br /><br /><br /><br /><br />
+		
+	<center>
+	<form method="get" action="entered_data.php" id="form1"><br />
+		<br />
+		<fieldset>
+		<legend style="color:#4997d0;">Transfer Details</legend>
+		<label>Select From Name:</label>
+		<select name="users1" />
+			<option  value="Abhijna">Abhijna</option>
+			<option  value="Jaya">Jaya</option>
+			<option  value="Maya">Maya</option>
+			<option  value="pranav">pranav</option>
+			<option  value="Ramnath">Ramnath</option>
+			<option  value="Ranjana">Ranjana</option>
+			<option  value="Reethu">Reethu</option>
+			<option  value="Sanjana">Sanjana</option>
+			<option  value="Sudha">Sudha</option>
+			<option  value="Tanuja">Tanuja</option>
+		</select>
+		<br />
+		
+		<br />
+		<label>Select To Name:</label>
+		<select name="users2" />
+			<option value="Abhijna">Abhijna</option>
+			<option value="Jaya">Jaya</option>
+			<option value="Maya">Maya</option>
+			<option value="pranav">pranav</option>
+			<option value="Ramnath">Ramnath</option>
+			<option value="Ranjana">Ranjana</option>
+			<option value="Reethu">Reethu</option>
+			<option value="Sanjana">Sanjana</option>
+			<option value="Sudha">Sudha</option>
+			<option value="Tanuja">Tanuja</option>
+		</select>
+	    </br>
+	   <br />
+	<label>Enter the amount to transfer</label></br></br>
+		<input type="number" name="balance"/><br />
+		<br />
+		<br />
+		<input type="submit" style="background-color:#2a52be; color:#ffff99;" onclick="submit_click();"/>
+	</fieldset>
+  </form>
+   </center>
+	
+	<script>
+	  function submit_click()
+	  {
+	    alert("Entered Successfully");
+	  }
+	</script>
+	</body>
+</html>
